@@ -1,0 +1,10 @@
+# Automatic Street Light Simulation
+
+light_level = int(input("Enter light level (0-100): "))
+
+if light_level < 40:
+    print("🌙 It is dark.")
+    print("Street Light: ON")
+else:
+    print("☀️ It is bright.")
+    print("Street Light: OFF")
